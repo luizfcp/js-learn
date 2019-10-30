@@ -1,2 +1,3 @@
-# js-learn
-Aprendendo JavaScript
+## js-learn
+
+Studying JavaScript
