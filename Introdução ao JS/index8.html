@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Javascript - Intervalo e timeout</title>
+    </head>
+    <body>
+        <script>
+            function exibe() {
+                console.log('Hello World');
+            }
+            function exibe2() {
+                console.log('Hello World 2');
+            }
+            
+            // executa varias vezes a cada ms
+            setInterval(exibe, 1000) // 1000ms - 1segundo
+
+            // executa uma unica vez, esperando x ms
+            setTimeout(exibe2, 3000) // 1000ms - 1segundo
+        </script>
+    </body>
+</html>
